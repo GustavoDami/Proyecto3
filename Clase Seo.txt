@@ -1,0 +1,4 @@
+Agregue keywords y description en el head, comprimi las imagenes del carrousel
+
+<meta name="keywords" content="escuela de manejo, auto escuela, moto escuela, zona sur, avellaneda, doble comando, instructores">
+    <meta name="description" content="Escuela de manejo ubicada en zona sur, nuestros vehiculos poseen doble comando de pedalera, poseemos excelentes valoraciones, disponemos de motoescuela, autos automaticos">

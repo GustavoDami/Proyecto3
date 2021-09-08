@@ -1,0 +1,26 @@
+{
+  "name": "proyectosass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss SCSS/origen.scss CSS/destino.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoDami/GitHubClase2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GustavoDami/GitHubClase2/issues"
+  },
+  "homepage": "https://github.com/GustavoDami/GitHubClase2#readme",
+  "description": ""
+}
