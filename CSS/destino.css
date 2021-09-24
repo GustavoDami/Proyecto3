@@ -268,3 +268,27 @@ h5 {
   border: 10px double #000000;
   padding: 1rem;
   margin: 1rem; }
+
+@media only screen and (max-width: 500px) {
+  .carousel-item {
+    height: 250px;
+    width: 100%;
+    font-size: 45%; } }
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .carousel-item {
+    height: 360px;
+    width: 100%;
+    font-size: 65%; } }
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+  .carousel-item {
+    height: 460px;
+    width: 100%;
+    font-size: 75%; } }
+
+@media screen and (min-width: 1025px) and (max-width: 1920px) {
+  .carousel-item {
+    height: 700px;
+    width: 100%;
+    font-size: 75%; } }
